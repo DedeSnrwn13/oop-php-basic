@@ -20,7 +20,7 @@ echo "<pre>";
 print_r($class_vars);
 echo "</pre>";
 
-if (class_exists('Student', 'name')) {
+if (property_exists('Student', 'name')) {
     echo "Properti Nama tersedia";
 } else {
     echo "Properti Nama tidak tersedia";
